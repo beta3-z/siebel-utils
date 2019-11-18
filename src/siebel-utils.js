@@ -183,8 +183,8 @@ define('siebel/custom/siebel-utils', function(){
             return app().GetProfileAttr(name);
         },
 
-        assignAllTo(object){
-            Object.getOwnPropertyNames(helpers).forEach( prop => object[prop] = helpers[prop]);
+        globalize(){
+            Object.keys(helpers).forEach(prop => window[prop] = helpers[prop]);
         },
 
         psToJson,

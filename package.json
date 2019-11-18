@@ -2,22 +2,23 @@
   "name": "sibel-utils",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "src/siebel-utils.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "@types/requirejs": "^2.1.31",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "types-siebel": "0.0.1"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/beta3-z/siebel-utils.git"
+    "type": "git",
+    "url": "https://github.com/beta3-z/siebel-utils.git"
   }
 }

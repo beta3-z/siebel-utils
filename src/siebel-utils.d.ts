@@ -25,4 +25,6 @@ declare module "siebel-utils" {
     export function invoke(workflowName: string, inputs: object): object
     export function invoke(serviceName: string, methodName: string): object
     export function invoke(serviceName: string, methodName: string, inputs: object): object
+
+    export function globalize(): void
 }
