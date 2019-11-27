@@ -1,5 +1,5 @@
-type PropertySet = import('types-siebel').PropertySet
-type Application = import('types-siebel').Application
+type PropertySet = import('types-siebel').JSSPropertySet
+type Application = typeof SiebelApp.S_App
 
 declare module 'siebel-utils' {
     export function app(): Application

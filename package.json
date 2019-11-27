@@ -12,10 +12,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@types/jest": "^24.0.23",
     "@types/requirejs": "^2.1.31",
     "jest": "^24.9.0",
-    "types-siebel": "latest"
+    "types-siebel": "^0.3.0"
   },
   "repository": {
     "type": "git",

@@ -4,7 +4,3 @@
 3. Create record with "scripts/custom/siebel-utils.js" value in "Name" field
 4. Open "Administration - Application" -> "Manifest Administration"
 5. Find record with "Type" = Application, "Usage Type" = Common and "" = "PLATFORM_INDEPENDENT". Or create new one if not exists
-
-
-# Test note
-To run tests you need to provide lib/jsPropset.js. You can find it under /public/SCRIPTS directory on your web-server or Siebel Mobile Web Client
