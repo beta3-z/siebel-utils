@@ -99,7 +99,6 @@
             } else {
                 Object
                     .keys(json)
-                    .filter(p => !p.match(/^_value/))
                     .forEach(name => {
                         const value = json[name];
 
